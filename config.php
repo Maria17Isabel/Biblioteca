@@ -14,6 +14,3 @@ if ($conn->connect_error){
     // a seta -> é usada para acessar propriedades de métodos de objetos em PHP, tornando o código mais legível e fácil de manter
     die("Conexão falhou: {$conn->connect_error}");
 }
-else {
-    echo "PARSBÉNS!!! A conexão ao banco de dados ocorreu normalmente!";
-}
